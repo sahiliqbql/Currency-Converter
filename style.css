@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    height: 180px;
+    width: 310px;
+    border: 1px solid black;
+    margin-top: 235px;
+    background-color: rgba(26, 25, 25, 0.909);
+    padding: 30px 10px 10px 10px;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.653);
+}
+
+#to{
+    height: 28px;
+    width: 194px;
+    border-radius: 7px 0 0 7px;
+    border: 2px solid white;
+    background-color:rgba(26, 25, 25, 0.909) ;
+    color: white;
+    outline: none;
+    padding-left: 13px;
+    border-left: none;
+    border-right:none;
+}
+#to::placeholder{
+    color: rgba(255, 255, 255, 0.651);
+}
+
+#toS ,#toF{
+    height: 33px;
+    width:57px ;
+    border-radius: 0 7px 7px 0;
+    color: white;
+    background-color: rgba(26, 25, 25, 0.909);
+    border: 2px solid white;
+    outline: none;
+    border-right:none;
+}
+#fromTable{
+    display: flex;
+    margin: 14px 0 30px 0;
+}
+#toTable{
+    display: flex;
+}
+#fromBox{
+    height: 30px;
+    width: 194px;
+    border-radius: 7px 0 0 7px;
+    border: 2px solid white;
+    background-color:rgba(26, 25, 25, 0.909) ;
+    color: white;
+    outline: none;
+    padding-left: 13px;
+    display:flex;
+    align-items: center;
+    border-left:none ;
+    border-right:none;
+}
+
+button{
+    height: 33px;
+    width:309px ;
+    border-radius: 7px;
+    color: white;
+    background-color: rgba(26, 25, 25, 0.909);
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 17px;
+    border-left: none;
+    border-right: none ;
+}
+
+#img{
+    height: 30px;
+    width: 43px;
+    background-color:rgba(26, 25, 25, 0.909);
+    border: 2px solid white;
+    border-right:none;
+    padding-left:1.7px ;
+}
+
+img{
+    height: 30px;
+    width: 40px;
+}
